@@ -6,7 +6,7 @@ banner_image: aboutPage.jpg
 ---
 
 **Noah** is a Developer from [Republic of Korea](https://en.wikipedia.org/wiki/South_Korea). 
-I graduated from Sungkyul University with a BA in Computer Engineering.
+I graduated from Sungkyul University with a BS in Computer Engineering.
 I started my career with working as an intern at WIT Studio,a start-up company. After that, I was working at [Hana Financial Group Inc](http://www.hanafn.com/eng/main.do), [LINE Corp.](https://linecorp.com/en)
 
 Now, I'm working at [SNOW Corp.](https://snowcorp.com/en/main)
