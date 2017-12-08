@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+        
+    function binaryStringToArrayBuffer(binary) {
+        var length = binary.length;
+        var buf = new ArrayBuffer(length);
+        var arr = new Uint8Array(buf);
+        for(var i=0;i<length;i++) {
+            arr[i] = binary.charCodeAt(i);
+        }
+        return buf;
+    }
+
+    function base64StringToBlob(base64) {
+        var type = base64.match(/data:([^;]+)/)[1];
+        base64 = base64.replace(/^[^,]+,/g, '');
+        var options = {};
+        if (type) {
+            options.type = type;
+        }
+        var binaryArrayBuffer = [ binaryStringToArrayBuffer(window.atob(base64)) ];
+        return new Blob(binaryArrayBuffer, options);
+    }
+
+    function onFileChange() {
+        var preview = document.querySelector('img');
+        var file    = document.querySelector('input[type=file]').files[0];
+        var reader  = new FileReader();
+
+        reader.addEventListener("load", function (e) {
+            var base64 = e.target.result;
+            
+            /* BASE64 STRING IMAGE BINDING */
+            //preview.src = base64; 
+            
+            /* BLOB URL IMAGE BINDING */
+            preview.src = window.URL.createObjectURL(base64StringToBlob(base64));
+        }, false);
+
+        if (file) {
+            reader.readAsDataURL(file);
+        }
+    }
+
+</script>
+</head>
+<body>
+<img id="image"/>
+<input type="file" onchange="onFileChange()"/>
+</body>
+</html>
