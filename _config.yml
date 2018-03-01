@@ -9,7 +9,7 @@
 title: "DailyLabs"
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description: "BlogInn is a bold theme for the Jekyll blogging platform. Available for purchase at ThemeForest.net."
+description: ""
 
 # Tagline near the site title
 tagline: ""
@@ -21,7 +21,7 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "http://justgoodthemes.com"
+url: "https://NoahHahm.github.io"
 
 # Site navigation - each item must have a title and a url.
 navigation:
@@ -29,6 +29,8 @@ navigation:
   url: /
 - text: About
   url: /about/
+- text: Portfolio
+  url: /portfolio/
 - text: Archives
   url: /tags/
 

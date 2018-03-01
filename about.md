@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-description: An optional about page for BlogInn Jekyll theme
-banner_image: aboutPage.jpg
+description: About Me
+# banner_image: aboutPage.jpg
 ---
 
 **Noah** is a Developer from [Republic of Korea](https://en.wikipedia.org/wiki/South_Korea). 
