@@ -7,7 +7,7 @@ tags: [java, security]
 comments: true
 ---
 
-AES 128비트 암호화 알고리즘을 통한 Base64 인코딩/디코딩
+AES 128비트 암호화 알고리즘을 통한 Base64 인코딩/디코딩 방법을 알아보겠습니다.
 
 <!--more-->
 
