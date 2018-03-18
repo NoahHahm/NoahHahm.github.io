@@ -181,8 +181,6 @@ handleAttach의 역할은 라우트에서 지정한 Controller이름, Controller
 
 해당 URL 라우트가 어떤 컨트롤러에 있는 함수를 실행할것인지 에 대한 액션을 취하게 됩니다.
 
-기존 익명 람다에 구현한 방법과 위 Controller로 나누어서 사용했을때의 이점이 보이시나요?
-
 이제 개발자는 Route 폴더에서 URL, Controller 명칭만 관리하면 되고,
 
 실제 액션에 대한 코드는 Controller Class 에서 관리하면 되겠네요.
@@ -190,3 +188,6 @@ handleAttach의 역할은 라우트에서 지정한 Controller이름, Controller
 어떤 방법을 쓰든지 간에 자신이 편한 방법으로 쓰면 되겠지만
 
 개인적으로 프로젝트의 규모가 커지고, 수정이 비번하게 이루어지는 상황에서는 이 방법이 가장 효율적이었습니다.
+
+
+[Route Sample](/assets/180318/route.zip) 
