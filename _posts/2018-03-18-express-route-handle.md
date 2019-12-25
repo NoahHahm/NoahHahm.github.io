@@ -185,9 +185,5 @@ handleAttach의 역할은 라우트에서 지정한 Controller이름, Controller
 
 실제 액션에 대한 코드는 Controller Class 에서 관리하면 되겠네요.
 
-어떤 방법을 쓰든지 간에 자신이 편한 방법으로 쓰면 되겠지만
 
-개인적으로 프로젝트의 규모가 커지고, 수정이 비번하게 이루어지는 상황에서는 이 방법이 가장 효율적이었습니다.
-
-
-[Route Sample](/assets/180318/route.zip) 
+[Route Sample](/assets/180318/route.zip)

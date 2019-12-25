@@ -5,17 +5,21 @@ description:
 # banner_image: aboutPage.jpg
 ---
 
-# 2018
+# 2018~
 ### ZEPETO
- - website [(http://zepeto.me)](http://zepeto.me)
+ - website [(https://zepeto.me)](http://zepeto.me), [(https://zepeto.cn)](http://zepeto.cn)
  - server
  - content management system
+ - unity asset bundle build cluser
+ - unity native plugin (ios/android)
+ - unity client
+ - internal tool
 
 # 2017
 ### LINE Video Proactive
  - camera service common engine (B612/LINE Camera/LINE Live ...)
 
-### PORTRA
+### PORTRA (Service Close)
  - website [(https://portra.me)](https://portra.me)
  - mobile app (ios/android)
  - art filter
@@ -23,7 +27,7 @@ description:
  
 # 2016
 ### LINE Creative
-  - website [(http://linecreative.line.me/ko)](http://linecreative.line.me/ko)
+  - website [(https://creative.line.me)](https://creative.line.me)
   - content management system
 
 ### LINE Friends Store
